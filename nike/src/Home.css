@@ -1,0 +1,246 @@
+.slider-warapper .image-list{
+
+  margin-left: 50px;
+display: grid;
+padding-top: 40px;
+padding-bottom: 20px;
+gap:25px;
+font-family:"Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+scrollbar-width: 30px;
+overflow-x: auto;
+grid-template-columns: repeat(10, 1fr);
+
+}
+.shoe-item{
+  font-size: 17px;
+}
+.slider-warapper .image-list::-webkit-scrollbar{
+  display: none;
+}
+.slider-warapper .image-list .image-item{
+  width:405px;
+  height: 400px;
+  object-fit: cover;
+}
+.coll_name{
+  display:block;
+   margin-left:40px; 
+   font-size:18px; padding-top:15px
+}
+.category{
+  display:block;
+   margin-left:40px; 
+   padding-top:5px;
+}
+.price{
+  display:block; 
+  margin-left:40px; 
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.detail-btn{
+  background-color:#35424a;
+  color:white;
+  padding:15px;
+  border-radius:5px;
+  border:none;
+  vertical-align:center;
+  margin-left:40px;
+  text-decoration: none;
+  font-size:17px;
+  width:125px;
+}
+.detail-btn:hover{
+background-color:black;
+}
+  .just{
+    width:100%;
+  }
+  .sale{
+    text-align: center;
+    font-size: 19px;
+    padding-top: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 7px;
+    word-spacing: 3px;
+  }
+  .offer{
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .nike-41{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family:"Helvetica Now Text Medium",Helvetica,Arial,sans-serif;;
+    font-size: 17px;
+    padding-top: 30px;
+  }
+  .waste{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+   font-size: 75px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   word-spacing: 8px;
+   margin: -10px;
+  }
+  .nike-42{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family:"Helvetica Now Text Medium",Helvetica,Arial,sans-serif;;
+    font-size: 17px;  
+  }
+  .nike-43{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+    font-size: 17px;  
+    margin-top: 5px;
+  }
+  .main-button{
+   text-align: center;
+   padding-top: 30px;
+   .shop-button{
+    background-color: black;
+    color: white;
+    font-family:"Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+    height: 37px;
+    width:70px;
+    font-size: 16px;
+    border:none;
+    border-radius: 20px;
+   }
+  }
+ .new{
+  font-family:"Helvetica Now Text Medium",Helvetica,Arial,sans-serif;;
+  font-size: 27px;  
+  padding-top: 40px;
+ }
+ .dont-miss{
+  padding-top: 60px;
+  font-family:"Helvetica Now Text Medium",Helvetica,Arial,sans-serif;;
+  font-size: 25px;
+ }
+ .jordan-img{
+  width:100%;
+  
+ }
+ .jordan-sports{
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+ font-size: 75px;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ word-spacing: 8px;
+ }
+
+ 
+
+.slider-warapper .image-list{
+  margin-left: 50px;
+display: grid;
+padding-top: 5px;
+padding-bottom: 30px;
+gap:12px;
+font-size: 0;
+scrollbar-width: 30px;
+overflow-x: auto;
+grid-template-columns: repeat(10, 1fr);
+}
+.slider-warapper .image-list::-webkit-scrollbar{
+  display: none;
+}
+.slider-warapper .image-list .image-item{
+  width:405px;
+  height: 500px;
+  object-fit: cover;
+}
+.featured{
+  font-family:"Helvetica Now Text Medium",Helvetica,Arial,sans-serif;;
+  font-size: 27px;  
+  padding-top: 10px;
+  margin-left: 50px;
+ }
+ span.prev{
+  position: absolute;
+  right:90px;
+  background-color: rgb(245, 245, 245);
+  color: gray;
+  font-size:18px;
+ width:30px;
+ padding: 10px;
+ border-radius: 30px;
+ 
+}
+span.next{
+  position: absolute;
+  right: 30px;
+  background-color:rgb(245, 245, 245);
+  font-size:18px;
+  width:30px;
+ padding: 10px;
+ border-radius: 30px;
+ 
+}
+
+.slider-warapper2 .image-list2{
+  margin-left: 50px;
+display: grid;
+padding-bottom: 30px;
+gap:12px;
+font-size: 0;
+scrollbar-width: 30px;
+overflow-x: auto;
+grid-template-columns: repeat(10, 1fr);
+}
+.slider-warapper2 .image-list2::-webkit-scrollbar{
+  display: none;
+}
+.slider-warapper2 .image-list2 .image-item{
+  width:405px;
+  height: 400px;
+  object-fit: cover;
+  
+}
+.classics{
+  font-family:"Helvetica Now Text Medium",Helvetica,Arial,sans-serif;;
+  font-size: 27px;  
+  padding-top: 50px;
+  margin-left: 50px;
+ }
+ .sport{
+  font-family:"Helvetica Now Text Medium",Helvetica,Arial,sans-serif;;
+  font-size: 27px;  
+  padding-top: 50px;
+  margin-left: 50px;
+ }
+ .sport-slider-warapper .sport-image-list{
+  margin-left: 50px;
+display: grid;
+padding-bottom: 30px;
+gap:12px;
+font-size: 0;
+scrollbar-width: 30px;
+overflow-x: auto;
+grid-template-columns: repeat(10, 1fr);
+}
+.sport-slider-warapper .sport-image-list::-webkit-scrollbar{
+  display: none;
+}
+.sport-slider-warapper .sport-image-list .image-item{
+  width:440px;
+  height: 300px;
+  object-fit: cover;
+  
+}

@@ -1,0 +1,175 @@
+.main-class {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+}
+.header{
+  padding-bottom:45px;
+}
+.img1{
+  margin-left: 50px;
+  width:35px;
+  float: left;
+ 
+}
+.menu {
+ padding-bottom :30px;
+  float:right;
+  margin-right: 55px;
+  font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.menu a{
+  margin: 10px;
+  font-size:16px;
+  text-decoration: none;
+  color: black;
+  font: bold;
+}
+.menu a:hover{
+  color: rgb(112, 112, 118);
+}
+.container{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.nikelogo{
+  float: left;
+}
+.center-class{
+  display:inline;
+}
+.navbar{
+  
+  text-align: center;
+  display:inline-block;
+ font-family:  "Helvetica Now Text",Helvetica,Arial,sans-serif;
+ margin-left: 15%;
+}
+.navbar a{
+  margin: 12px;
+  font-size:18px;
+  text-decoration: none;
+  color: black;
+}
+.navbar a:hover{
+  border-bottom: 2px solid black;
+}
+.icon{
+  display: inline-block;
+  position: relative;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+  margin-left:50px;
+}
+.icons{
+  display:inline-block;
+}
+.search-input{
+  height:35px;
+  width:110px;
+  border-radius: 20px;
+  background-color: rgb(245, 245, 245);
+  font-size: 17px;
+  border:none;
+  margin-left: 20px;
+}
+.search-input:hover{
+background-color: cacacb;
+}
+#search-icon{
+font-size: larger;
+padding:8px;
+}
+#search-icon:hover{
+background-color: cacacb;
+padding: 8px;
+border-radius: 20px;
+}
+#heart{
+font-size: 22px;
+margin-left: 20px;
+padding:7px;
+}
+#heart:hover{
+background-color: rgb(229, 229, 229);
+padding: 7px;
+border-radius: 20px;
+}
+#bag{
+font-size: 19px;
+margin-left: 10px;
+padding:8px;
+}
+#bag:hover{
+
+background-color: rgb(229, 229, 229);
+padding: 8px;
+border-radius: 20px;
+}
+.dropdown {
+  font-weight: bold;
+  
+}
+.dropbtn:hover{
+  color: rgb(112, 112, 118);
+}
+
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-weight: bold;
+    font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom:10px;
+    font-size:16px;
+}
+.dropdown-content
+{
+  display:none;
+  width:250px;
+  position: absolute;
+  right: 190px;
+  z-index:5;
+  background-color:white;
+  border-radius:10px;
+  padding-bottom:10px;
+}
+.dropdown-content:hover{
+  display:block;
+
+}
+
+.dropdown-content a {
+
+  background-color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  color: rgb(112, 112, 118);
+  border-radius: 5px;
+  padding-left: 25px;
+  font-size: 13px;
+}
+.dropdown-content a:hover {
+  color: black;
+ 
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#logout-btn{
+border:none;
+font-weight: bold;
+font-size:14px;
+}
+.menu button,p{
+  display: inline-block;
+  margin: 10px;
+  font-size:16px;
+  text-decoration: none;
+  color: black;
+  font: bold;
+}

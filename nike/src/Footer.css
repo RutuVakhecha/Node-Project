@@ -1,0 +1,66 @@
+.footer{
+    display: inline;
+    padding-top: 40px;
+    vertical-align: top;
+}
+    .resources {
+      display: inline-block;
+      vertical-align: top;
+      text-decoration: none;
+      }
+      .resources a{
+        text-decoration: none;
+        color: rgb(112, 112, 118);
+       
+      }
+    .help{
+      display: inline-block;
+      margin-left: 20%;
+  
+    }
+    .help a{
+      text-decoration: none;
+     color: rgb(112, 112, 118);
+    
+    }
+    .company{
+      display: inline-block;
+      margin-left: 25%;
+      vertical-align: top;
+    }
+    .company a{
+      text-decoration: none;
+      color: rgb(112, 112, 118);
+    }
+   
+   .nike-2024{
+    color: rgb(112, 112, 118);
+    padding-top: 65px;
+   }
+   .nike-2024 a{
+    color: rgb(112, 112, 118);
+    text-decoration: none;
+   }
+  .terms{
+    display: inline;
+    
+    .terms-sale{
+      margin-left:5%;
+    }
+    .terms-use{
+      margin-left: 5%;
+    }
+    .nike-privacy{
+    margin-left: 5%;
+    }
+  }  
+  .selectnav{
+    border: none;
+    background-color: white; 
+  }
+  #selectnav1{
+    margin-left: 25px;
+    color:rgb(112, 112, 118);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+  }

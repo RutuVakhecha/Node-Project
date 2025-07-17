@@ -1,0 +1,67 @@
+.ul-class {
+    list-style: none;
+  }
+ 
+#filter-category {
+ padding-top: 30px;
+ display: inline-block;
+ vertical-align: top;
+ margin-left: 25px;
+}
+
+.ul-class {
+  padding-left: 0;
+  list-style-type: none;
+  list-style: none;
+}
+
+.category-list-item {
+ 
+  align-items: center;
+  margin-bottom: 8px; 
+  font-size: 17px;
+  list-style: none;
+}
+
+.category-checkbox {
+  width: 7%;
+  margin-left: 25px;
+  margin-right: 16px
+}
+
+.product-list{
+  display: inline-block;
+  padding-left:55px;
+  padding-top: 30px;
+  vertical-align: top;
+  width:75%;
+}
+.shoe-item{
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: top;
+ 
+}
+.btn{
+  padding-left: 230px;
+}
+.show-more-btn {
+  color: blue;
+  margin-left: 50px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  width:120px;
+}
+#hidebtn {
+  position: absolute;
+  padding-top: 13px;
+  font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  right: 220px;
+  font-size: 20px;
+}
+.blue-pack {
+  font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  margin-left: 50px;
+}

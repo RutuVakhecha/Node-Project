@@ -1,0 +1,107 @@
+.container {
+    
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+    text-align: center;
+}
+
+.shoes-img {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Add some space between the images and details */
+    padding-top: 25px;
+    
+}
+.img-class{
+    border-radius: 7px;
+    border: 2px solid white;
+  margin: 5px auto;
+  cursor: pointer;
+}
+.img-class:hover{
+    border: 2px solid black;
+}
+.shoes-detail {
+    flex: 1;
+   
+}
+
+.shoe-shoe ul {
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+
+}
+.shoe-shoe{
+    width:50%;
+}
+.shoe-shoe li {
+    margin-bottom: 10px;
+}
+.coll_name{
+    font-size: 25px;
+}
+.category{
+    font-size: 18px;
+}
+.price{
+    padding-top: 40px;
+  font-size: 20px;
+}
+.size{
+    padding-top: 20px;
+  font-size: 18px;
+  margin-left: 35px;
+}
+.desc{
+    font-size: 19px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.color{padding-top: 25px;  margin-left: 35px; font-size: 18px;}
+.style{padding-top: 7px; margin-left: 35px; font-size: 18px;}
+.country{padding-top: 7px; margin-left: 35px; font-size: 18px;}
+.add-to-bag-btn {
+    color: white;
+    background-color: black;
+    padding: 25px;
+    border-radius: 35px;
+    border: none;
+    font-weight: bold;
+    width: 420px;
+    margin-left: 35px;
+    font-size: 17px
+}
+.favourite {
+    display: block;
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 22px;
+    border-radius: 55px;
+    border: 1px solid rgb(211, 211, 211);
+    font-weight: bold;
+    width: 390px;
+    margin-left: 35px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.favourite:hover {
+    border: 1px solid black;
+}
+/* Adjust the style for thumbnails */
+.shoes-img img {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.thumbnail{
+    display: block;
+            width: 70px;
+            height: 70px;
+            border-radius: 7px;
+            border: 2px solid white;
+            margin: 5px auto;
+            cursor: pointer;
+}
+.thumbnail:hover{   border: 2px solid black;}
